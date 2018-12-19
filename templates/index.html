@@ -1,0 +1,18 @@
+
+</script>
+{% extends "layout.html" %}
+{% block content %}
+    {% for post in posts %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+         
+              <small class="text-muted">{{ post }}</small>
+            </div>
+           
+          </div>
+
+        </article>
+    {% endfor %}
+     
+{% endblock content %}
